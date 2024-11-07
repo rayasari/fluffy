@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/fluffy_backend"
+]
+resolver = "2"

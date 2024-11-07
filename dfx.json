@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "fluffy_backend": {
+      "candid": "src/fluffy_backend/fluffy_backend.did",
+      "package": "fluffy_backend",
+      "type": "rust"
+    },
+    "fluffy_frontend": {
+      "dependencies": [
+        "fluffy_backend"
+      ],
+      "source": [
+        "src/fluffy_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "fluffy_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
