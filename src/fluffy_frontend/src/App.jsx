@@ -1,30 +1,16 @@
-import { useState } from 'react';
-import { fluffy_backend } from 'declarations/fluffy_backend';
+import React, { useState } from 'react';
+import Game from './components/Game';
+import MintNFT from './components/MintNFT';
 
 function App() {
-  const [greeting, setGreeting] = useState('');
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    const name = event.target.elements.name.value;
-    fluffy_backend.greet(name).then((greeting) => {
-      setGreeting(greeting);
-    });
-    return false;
-  }
+  const [score, setScore] = useState(0);
 
   return (
-    <main>
-      <img src="/logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#" onSubmit={handleSubmit}>
-        <label htmlFor="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting">{greeting}</section>
-    </main>
+    <div className="App">
+      <h1>Game & Mint NFT</h1>
+      <Game setScore={setScore} />
+      <MintNFT score={score} />
+    </div>
   );
 }
 
