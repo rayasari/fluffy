@@ -1,13 +1,13 @@
 # Fluffy
 
-Fluffy adalah sebuah proyek open-source yang berfokus pada pengelolaan dan visualisasi data berbasis cloud. Dengan Fluffy, pengguna dapat dengan mudah mengelola, memvisualisasikan, dan menganalisis data melalui antarmuka yang sederhana dan intuitif.
+Fluffy adalah proyek open-source yang berfokus pada pengelolaan dan visualisasi data berbasis cloud menggunakan Internet Computer (IC) dan Rust.
 
 ## Fitur
 
 - **Manajemen Data**: Simpan, kelola, dan organisasikan data secara efektif.
 - **Visualisasi Data**: Berbagai alat visualisasi yang memungkinkan analisis data dengan lebih mendalam.
 - **Antarmuka Pengguna Intuitif**: Dirancang untuk kemudahan penggunaan dengan UI yang bersih dan mudah dinavigasi.
-- **Keamanan**: Fluffy mengimplementasikan enkripsi dan autentikasi untuk memastikan data pengguna aman.
+- **Keamanan**: Fluffy mengimplementasikan enkripsi dan Keamanan berbasis IC untuk akses data.
 
 ## Instalasi
 
@@ -54,4 +54,3 @@ Proyek ini berlisensi di bawah [MIT License](LICENSE).
 ---
 
 Dibuat dengan ❤️ oleh [Rayasari](https://github.com/rayasari).
-```
